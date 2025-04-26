@@ -19,15 +19,15 @@ Aplikasi ini membantu menghitung jumlah dan jarak titik yang akan digunakan dala
 #    show_dark_mode = st.checkbox("Aktifkan Mode Gelap")
 
 # Apply dark mode
-if show_dark_mode:
-    st.markdown(
-        """
-        <style>
-            body { background-color: #1e1e1e; color: white; }
-            .stApp { background-color: #1e1e1e; }
-        </style>
-        """, unsafe_allow_html=True
-    )
+#if show_dark_mode:
+#    st.markdown(
+#        """
+ #       <style>
+ #           body { background-color: #1e1e1e; color: white; }
+#            .stApp { background-color: #1e1e1e; }
+#       </style>
+#        """, unsafe_allow_html=True
+#    )
 
 # Divider
 st.markdown("---")
